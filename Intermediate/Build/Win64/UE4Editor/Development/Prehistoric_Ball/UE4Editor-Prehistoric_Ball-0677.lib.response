@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Prehistoric_Ball-0677.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\Prehistoric_BallEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\BallPlayerController.cpp.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\PlayerBall.cpp.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\Prehistoric_Ball.cpp.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\Prehistoric_BallGameModeBase.cpp.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\BallPlayerController.gen.cpp.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\PlayerBall.gen.cpp.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\Prehistoric_Ball.init.gen.cpp.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\Prehistoric_BallGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Prehistoric_Ball\Intermediate\Build\Win64\UE4Editor\Development\Prehistoric_Ball\UE4Editor-Prehistoric_Ball-0677.lib"
+/INCLUDE:IMPLEMENT_MODULE_Prehistoric_Ball

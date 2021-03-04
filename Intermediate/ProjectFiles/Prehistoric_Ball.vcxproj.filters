@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Prehistoric_Ball.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0EBA39E5-21D7-4A62-9ECC-5AFEB37340DD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Prehistoric_Ball.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Prehistoric_BallEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Prehistoric_Ball.code-workspace" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{F9E03990-E03E-4955-8454-1E57AA48216A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Prehistoric_Ball">
+      <UniqueIdentifier>{DB086878-6C95-46AB-93DD-816F2BF3A7B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Prehistoric_Ball\BallPlayerController.cpp">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prehistoric_Ball\BallPlayerController.h">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prehistoric_Ball\PlayerBall.cpp">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prehistoric_Ball\PlayerBall.h">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Prehistoric_Ball\Prehistoric_Ball.Build.cs">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Prehistoric_Ball\Prehistoric_Ball.cpp">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prehistoric_Ball\Prehistoric_Ball.h">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prehistoric_Ball\Prehistoric_BallGameModeBase.cpp">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prehistoric_Ball\Prehistoric_BallGameModeBase.h">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Prehistoric_Ball\EggItem.h">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Prehistoric_Ball\Goal.h">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Prehistoric_Ball\EggItem.cpp">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prehistoric_Ball\Goal.cpp">
+      <Filter>Source\Prehistoric_Ball</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

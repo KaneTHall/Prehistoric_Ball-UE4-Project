@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Prehistoric_Ball",
+			"Path": "D:\\Unreal Projects\\Prehistoric_Ball\\Source\\Prehistoric_Ball.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Prehistoric_BallEditor",
+			"Path": "D:\\Unreal Projects\\Prehistoric_Ball\\Source\\Prehistoric_BallEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
