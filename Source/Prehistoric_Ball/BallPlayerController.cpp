@@ -4,7 +4,9 @@
 #include "BallPlayerController.h"
 #include "Blueprint/UserWidget.h"
 
-void ABallPlayerController::BeginPlay() 
+
+
+void ABallPlayerController::BeginPlay()
 {
     Super::BeginPlay();
       //Display HUD
@@ -15,6 +17,10 @@ void ABallPlayerController::BeginPlay()
 void ABallPlayerController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
 
+void ABallPlayerController::Pause()
+{
+    this->SetPause(true);
 }
 

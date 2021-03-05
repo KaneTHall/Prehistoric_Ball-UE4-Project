@@ -62,7 +62,7 @@ void APlayerBall::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("MoveSide", this, &APlayerBall::MoveSide);
 	PlayerInputComponent->BindAxis("ChargeJump", this, &APlayerBall::ChargeJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &APlayerBall::ReleaseJump);
-	PlayerInputComponent->BindAxis("Rotate", this, &APlayerBall::RotateCamera);
+//	PlayerInputComponent->BindAxis("Rotate", this, &APlayerBall::RotateCamera);
 }
 
 void APlayerBall::MoveForward(float Value) 
@@ -108,10 +108,10 @@ void APlayerBall::ReleaseJump()
 		JumpCharge = 0.0;
 }
 
-void APlayerBall::RotateCamera(float Value)
+/*void APlayerBall::RotateCamera(float Value)
 {
 	SpringArmComp->AddLocalRotation(FRotator(0, Value * 500.0f * GetWorld()->DeltaTimeSeconds, 0));
-}
+}*/
 
 void APlayerBall::Collision(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit) 
 {

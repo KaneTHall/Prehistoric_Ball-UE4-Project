@@ -18,3 +18,8 @@ void APrehistoric_BallGameModeBase::Tick(float DeltaTime)
 
 }
 
+void APrehistoric_BallGameModeBase::StageClear()
+{
+
+}
+

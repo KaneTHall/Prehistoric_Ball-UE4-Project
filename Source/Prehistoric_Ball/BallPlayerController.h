@@ -25,6 +25,9 @@ class PREHISTORIC_BALL_API ABallPlayerController : public APlayerController
 	UPROPERTY(EditAnywhere)
 	UUserWidget* HUD;
 
+	void Pause();
+
+
 	protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
