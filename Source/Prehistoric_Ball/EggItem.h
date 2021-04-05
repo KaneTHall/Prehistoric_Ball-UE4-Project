@@ -19,10 +19,12 @@ private:
 	UCapsuleComponent* CapsuleComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* Egg;
+	// The amount of score the player gets per egg collected
 	UPROPERTY(EditAnywhere, Category = "Score")
 	int Score = 10;
+	//The Speed at which the egg rotates
 	UPROPERTY(EditAnywhere)
-	float RotationSpeed=0.5;
+	float RotationSpeed=0.5f;
 	FRotator EggRotation;
 	FQuat QuatRotation;
 		

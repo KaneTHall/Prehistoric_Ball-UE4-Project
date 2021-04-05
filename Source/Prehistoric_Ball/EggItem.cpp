@@ -8,6 +8,7 @@ AEggItem::AEggItem()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	//Setup Eggitem Component structure
 	CapsuleComp = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Egg Collider"));
 	RootComponent = CapsuleComp;
 	Egg = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Egg Mesh"));
@@ -18,6 +19,7 @@ AEggItem::AEggItem()
 void AEggItem::BeginPlay()
 {
 	Super::BeginPlay();
+	//Initialize Egg rotation
 	EggRotation = FRotator(0, RotationSpeed, 0);
 	QuatRotation = FQuat(EggRotation);
 }
@@ -26,6 +28,7 @@ void AEggItem::BeginPlay()
 void AEggItem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//Apply small amount of rotation to item. 
 	AddActorLocalRotation(QuatRotation, false, 0, ETeleportType::None);
 }
 

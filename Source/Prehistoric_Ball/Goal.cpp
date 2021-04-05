@@ -10,6 +10,7 @@ AGoal::AGoal()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	// Setup the Goal Components structure
 	BoxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("Goal Collider"));
 	RootComponent = BoxComp;
 	GoalFrame = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Goal Frame Mesh"));
@@ -36,6 +37,7 @@ void AGoal::Tick(float DeltaTime)
 
 }
 
+//Play goal animation when function called
 void AGoal::GoalAchieved()
 {
 	Goal->bPauseAnims = 0;

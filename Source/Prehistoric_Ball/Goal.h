@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Goal.generated.h"
 
+
 class UBoxComponent;
 class USpringArmComponent;
 class UCameraComponent;
@@ -16,10 +17,6 @@ class PREHISTORIC_BALL_API AGoal : public AActor
 	GENERATED_BODY()
 	
 private:	
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	USpringArmComponent* SpringArmComp;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	UCameraComponent* GoalCam;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UBoxComponent* BoxComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
@@ -33,6 +30,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	void GoalAchieved();
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	USpringArmComponent* SpringArmComp;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	UCameraComponent* GoalCam;
 
 protected:
 	// Called when the game starts or when spawned
